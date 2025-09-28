@@ -52,3 +52,16 @@
 // input shrinks with each recursive call (smaller problem).
 // output grows until base case (solution ready).
 // Finally, when input = "", we print output.
+
+
+
+
+// Each node = one recursive call.
+
+// That node has its own copy of parameters (input, output).
+
+// The edges represent decisions/choices (like add lowercase, add uppercase, skip, etc.).
+
+// Leaves (nodes with no children) = base case reached → final answers are printed/returned.
+
+// So yes — 1 recursive call = 1 node in tree.
