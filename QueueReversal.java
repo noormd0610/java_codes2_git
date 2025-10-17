@@ -62,7 +62,4 @@ public class QueueReversal {
 // Remove elements from the queue and push them into a stack.
 // Pop elements from the stack and print (or put back in queue).
 // ✅ Result: Elements come out in reverse because stack reverses the order.
-
-// Analogy:
-// Recursion = “put things on a stack in your head, then process backwards.”
-// Stack = “explicitly use a box where last-in comes out first.”
+ 
