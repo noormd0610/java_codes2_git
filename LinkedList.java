@@ -204,7 +204,7 @@ public class LinkedList {
 // If n == size, remove the head.
 // Otherwise, find the (size - n)th node → that’s the previous node.
 // Connect prev.next = prev.next.next to skip the nth node.
-// To find from start → index = size - n + 1
+// To find  node from start = size - n + 1
 // To remove → need previous node → (size - n)
     public static void removeNthNodeFromEnd(int n) {
         // 1️⃣ Find size
